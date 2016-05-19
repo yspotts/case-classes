@@ -1,0 +1,26 @@
+javap example.Car
+=================
+
+Compiled from "Car.scala"
+public class example.Car implements scala.Product,scala.Serializable {
+  public static scala.Option<scala.Tuple3<java.lang.String, java.lang.String, java.lang.Object>> unapply(example.Car);
+  public static example.Car apply(java.lang.String, java.lang.String, int);
+  public static scala.Function1<scala.Tuple3<java.lang.String, java.lang.String, java.lang.Object>, example.Car> tupled();
+  public static scala.Function1<java.lang.String, scala.Function1<java.lang.String, scala.Function1<java.lang.Object, example.Car>>> curried();
+  public java.lang.String make();
+  public java.lang.String model();
+  public int year();
+  public example.Car copy(java.lang.String, java.lang.String, int);
+  public java.lang.String copy$default$1();
+  public java.lang.String copy$default$2();
+  public int copy$default$3();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public example.Car(java.lang.String, java.lang.String, int);
+}

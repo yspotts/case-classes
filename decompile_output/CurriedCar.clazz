@@ -1,0 +1,22 @@
+javap example.CurriedCar
+========================
+
+Compiled from "Car.scala"
+public class example.CurriedCar implements scala.Product,scala.Serializable {
+  public static scala.Option<java.lang.String> unapply(example.CurriedCar);
+  public static example.CurriedCar apply(java.lang.String, java.lang.String, int);
+  public java.lang.String make();
+  public java.lang.String model();
+  public int year();
+  public example.CurriedCar copy(java.lang.String, java.lang.String, int);
+  public java.lang.String copy$default$1();
+  public java.lang.String productPrefix();
+  public int productArity();
+  public java.lang.Object productElement(int);
+  public scala.collection.Iterator<java.lang.Object> productIterator();
+  public boolean canEqual(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+  public boolean equals(java.lang.Object);
+  public example.CurriedCar(java.lang.String, java.lang.String, int);
+}

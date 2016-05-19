@@ -1,0 +1,11 @@
+javap example.CurriedCar$
+=========================
+
+Compiled from "Car.scala"
+public final class example.CurriedCar$ implements scala.Serializable {
+  public static final example.CurriedCar$ MODULE$;
+  public static {};
+  public final java.lang.String toString();
+  public example.CurriedCar apply(java.lang.String, java.lang.String, int);
+  public scala.Option<java.lang.String> unapply(example.CurriedCar);
+}
